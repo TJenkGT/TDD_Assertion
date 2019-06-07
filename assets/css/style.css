@@ -1,0 +1,54 @@
+
+body{
+  /* background-image:url("../images/resumo-luz-azul-cor-onda-fundo.jpg"); */
+  -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+
+button, div, form, input {
+  margin: 10px;
+}
+
+
+
+h1{
+  box-sizing: content-box;
+  font-size: 40px;
+  font-weight: bolder;
+  align-content: center;
+  
+}
+
+#viewButtons{
+  border-top: black;
+  border-width: thick;
+ 
+}
+
+button{
+  background-color: darkgrey;
+  block-size: 30px;
+  font-size: 18px;
+} 
+
+button:hover{
+  color: whitesmoke;
+}
+
+
+div{
+  font-size: 14px;
+}
+
+p{
+  font-size: 14px;
+}
+
+#userMessage{
+color: rgb(17, 8, 146);
+margin: 0;
+align-content: center;
+font-size:20px;
+}

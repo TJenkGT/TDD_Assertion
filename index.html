@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stock Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+   
+
+</head>
+<body>
+<header>
+    <h1>Stock Search</h1>
+</header>
+
+<div class="container">
+    <form id="stock-form">
+        <p>Enter a stock symbol and press the submit button</p>
+        <label for="txtStockInput" size=14px>Add a Stock Symbol</label>
+        <input type="text" id="txtStockInput" onkeyup="this.value = this.value.toUpperCase();">
+
+        <!-- Button triggers new stock to be added -->
+        <button id="btnAddStock" type="submit" class="btn btn-secondary">Submit</button>
+        <button id="clear" class="btn btn-secondary">clear</button>
+        <p id="userMessage"></p>
+
+    </form>
+
+    <!-- Buttons will be displayed here  -->
+    <br>
+    <h2> Stock Symbols:</h2>
+    <div id="viewButtons"></div>
+
+    <!-- Stocks will be displayed here -->
+    <br>
+    <div id="viewStocks"></div>
+    <br>
+    <div id="viewHeadlines"></div>
+    <h2 id=headlines> </h2>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+
+
+</body>
+
+</html>
